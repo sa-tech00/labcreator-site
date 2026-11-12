@@ -1,8 +1,6 @@
 // Scraper: reads labcreator.in and turns it into clean data.
 // If the site cannot be reached or changes, it falls back to data/fallback.js.
 const axios = require('axios');
-   const PORT = process.env.PORT || 3000;
-   app.listen(PORT, () => console.log(`Running on ${PORT}`));
 const cheerio = require('cheerio');
 const fallback = require('./data/fallback');
 
